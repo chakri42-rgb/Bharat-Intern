@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.tjvwgov.mongodb.net/`, {
+mongoose.connect(`mongodb+srv://chakrichakri104:qwertyuiop@cluster0.tjvwgov.mongodb.net/`, {
     serverSelectionTimeoutMS: 5000, 
 });
 
